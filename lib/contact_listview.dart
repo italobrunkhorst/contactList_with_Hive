@@ -31,7 +31,7 @@ class ContactListView extends StatelessWidget {
                 fontSize: 18,
               ),
             ),
-            subtitle: Text(users[index].user_name),
+            subtitle: Text('${users[index].user_name} \n${users[index].telefone} \n${users[index].idade}'),
             children: <Widget>[
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
